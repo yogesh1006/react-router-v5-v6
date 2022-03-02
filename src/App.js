@@ -21,6 +21,22 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/products" element={<Products />} />
+          <Route
+            path="/test"
+            element={
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <h2>Hi,Public</h2>
+                <p>Hello!</p>
+              </div>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </div>

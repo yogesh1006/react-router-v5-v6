@@ -5,7 +5,7 @@ import Offers from "./Offers"
 
 export default function ProductDetails() {
   const { id } = useParams()
-  const { path } = useRouteMatch()
+  // const { path } = useRouteMatch()
 
   return (
     <div className="content">
