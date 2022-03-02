@@ -20,9 +20,9 @@ export default function ProductDetails() {
         </div>
       </div>
 
-      <Route path={`${path}/offers`}>
+      {/* <Route path={`${path}/offers`}>
         <Offers />
-      </Route>
+      </Route> */}
     </div>
   )
 }
